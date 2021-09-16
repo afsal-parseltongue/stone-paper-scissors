@@ -52,7 +52,7 @@ def start_game():
                     user_score += 1
                 else:
                     print("tie")
-        if user_score == 10:
+        if user_score == 5:
             print("You win")
         else:
             print("\nCpu win")
