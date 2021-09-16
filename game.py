@@ -19,7 +19,7 @@ def start_game():
         cpu_score = 0
         print("\nHi {} let start the play".format(name))
         print("Instruction: Please enter\n \t st for stone\n \t pa for paper \n \t sc for scissors")
-        while user_score <5 or cpu_score <5:
+        while user_score <5 and cpu_score <5:
             entry = input("\nPlease enter your choice: ")
             while not entry in valid_entries:
                 entry = input("\nPlease enter your choice: ")
